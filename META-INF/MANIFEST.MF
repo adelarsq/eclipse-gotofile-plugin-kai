@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-Name: GotoFile Plugin
+Bundle-SymbolicName: org.muermann.gotofile;singleton=true
+Bundle-Version: 1.3.5
+Bundle-ClassPath: GotoFileE30.jar
+Bundle-Activator: org.muermann.gotofile.GotoFileE30Plugin
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.ui.ide,
+ org.eclipse.search,
+ org.eclipse.jface.text
+Eclipse-AutoStart: true

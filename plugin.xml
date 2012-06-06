@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="GotoFileE30"
+            visible="true"
+            id="GotoFileE30.actionSet">
+         <menu
+               label="&amp;Search"
+               id="org.eclipse.search.menu">
+            <separator
+                  name="quickSearch">
+            </separator>
+         </menu>
+         <action
+               toolbarPath="sampleGroup"
+               label="&amp;Quick Search"
+               definitionId="org.muermann.gotofile.actions.GotoFileE30Command"
+               class="org.muermann.gotofile.actions.GotoFileAction"
+               tooltip="Goto File"
+               icon="icons/sample.gif"
+               menubarPath="org.eclipse.search.menu/quickSearch"
+               id="org.muermann.gotofile.actions.GotoFileAction">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="GotoFile Preferences"
+            class="org.muermann.gotofile.preferences.GotoFilePreferencePage"
+            id="org.muermann.gotofile.preferences.GotoFilePreferencePage">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="org.muermann.gotofile.PreferenceInitializer"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.eclipse.search.ui.category.search"
+            id="org.muermann.gotofile.actions.GotoFileE30Command"
+            name="GotoFile"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="org.muermann.gotofile.actions.GotoFileE30Command"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="Ctrl+Alt+N"/>
+   </extension>
+
+</plugin>
