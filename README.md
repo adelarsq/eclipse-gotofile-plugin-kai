@@ -1,11 +1,14 @@
-eclipse-gotofile-plugin-kai
+Eclipse-GotoFile-Plugin-kai
 ===========================
 
-modified muermann's goto file plugin
+Modified muermann's goto file plugin
+
 http://www.muermann.org/gotofile/
 
-this plugin adds fuzzy search ability with project oriented path to eclipse default 'open resource' command.
+This plugin adds fuzzy search ability with project oriented path to eclipse default 'open resource' command.
 
-license: LGPL
+License: LGPL
 
-ex: ``koin`` will be matched to ``knockout/index.html``
+Type Ctrl+Alt+N to use. Works with Eclipse Juno.
+
+Ex.:: ``koin`` will be matched to ``knockout/index.html``
