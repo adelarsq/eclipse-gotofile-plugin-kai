@@ -1,5 +1,5 @@
 # Eclipse-GotoFile-Plugin-kai
-Modified [muermann's goto file plugin][]
+Modified version from [Muermann's Goto File Plugin][orig]
 
 This plugin adds fuzzy search ability with project oriented path to eclipse default 'open resource' command.
 
