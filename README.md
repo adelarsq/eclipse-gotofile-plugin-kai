@@ -11,7 +11,7 @@ Ex.: `koin` will be matched to `knockout/index.html`
 ## Installation
 Download the raw org.muermann.gotofile_1.3.5.jar from this repo and copy it to the plugins folder of your Eclipse installation.
 
-This has been tested up to Eclipse Luna.
+This has been tested with Eclipse Luna and Mars.
 
 ## License
 [LGPL][lgpl]
